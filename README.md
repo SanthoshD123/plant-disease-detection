@@ -4,7 +4,7 @@
 
 This project is an AI-powered plant disease detection system that helps farmers and gardeners quickly identify common plant diseases. Using deep learning techniques, the system can analyze images of plant leaves and accurately diagnose various plant diseases affecting tomatoes, potatoes, and bell peppers.
 
-### 📸 Screenshots
+### 📸 Screenshot
 
 #### Prediction Result
 ![Screenshot 2024-10-02 134924](https://github.com/user-attachments/assets/f2dfb970-7a1a-47bd-b079-10e1627dacca)
