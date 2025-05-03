@@ -100,14 +100,19 @@ plant-disease-detection/
 
 ## 📊 Model Architecture
 
-The plant disease detection model uses a Convolutional Neural Network (CNN) with the following architecture:
+The plant disease detection model uses a Convolutional Neural Network (CNN) implemented with TensorFlow and Keras. The architecture consists of:
 
 - Input layer accepting 100x100 RGB images
-- Multiple convolutional layers with batch normalization and max pooling
-- Dense layers with dropout for regularization
+- 4 convolutional blocks, each containing:
+  - Conv2D layer (starting with 32 filters, doubling to 64, then 128)
+  - Batch normalization for training stability
+  - MaxPooling2D to reduce spatial dimensions
+- Flatten layer to convert 3D feature maps to 1D feature vectors
+- Dense layer with 512 units and ReLU activation
+- Dropout layer (0.5) for regularization to prevent overfitting
 - Output layer with softmax activation for multi-class classification
 
-The model was trained on the PlantVillage dataset with data augmentation techniques to improve generalization.
+The model was trained using the Adam optimizer with categorical cross-entropy loss for 15 epochs, incorporating data augmentation techniques (rotation, zoom, flip) to improve generalization and prevent overfitting.
 
 ## 🖼️ Dataset
 
