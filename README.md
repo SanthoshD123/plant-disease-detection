@@ -1,7 +1,5 @@
 # Plant Disease Detection
 
-![Plant Disease Detection Banner](https://raw.githubusercontent.com/SanthoshD123/plant-disease-detection/main/static/banner.png)
-
 ## 📋 Overview
 
 This project is an AI-powered plant disease detection system that helps farmers and gardeners quickly identify common plant diseases. Using deep learning techniques, the system can analyze images of plant leaves and accurately diagnose various plant diseases affecting tomatoes, potatoes, and bell peppers.
@@ -140,16 +138,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📞 Contact
-
-Santhosh D - [@SanthoshD123](https://github.com/SanthoshD123)
-
-Project Link: [https://github.com/SanthoshD123/plant-disease-detection](https://github.com/SanthoshD123/plant-disease-detection)
-
----
-
 ### 📸 Screenshots
 
 #### Prediction Result
-(![Screenshot 2024-10-02 134924](https://github.com/user-attachments/assets/f2dfb970-7a1a-47bd-b079-10e1627dacca)
-)
+![Screenshot 2024-10-02 134924](https://github.com/user-attachments/assets/f2dfb970-7a1a-47bd-b079-10e1627dacca)
+
